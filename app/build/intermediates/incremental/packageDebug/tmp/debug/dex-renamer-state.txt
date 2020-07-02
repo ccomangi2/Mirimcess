@@ -1,0 +1,4 @@
+#Fri Jun 26 03:46:42 KST 2020
+base.0=C\:\\Users\\suvin\\Desktop\\Mirim-cess-master-app\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
