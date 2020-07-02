@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mirim_cess_master"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:7:5-68
+12-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:7:22-65
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:10:5-50:19
+20        android:allowBackup="true"
+20-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.2.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\c6f4260131458ccd0b15b1a20cb8065e\core-1.2.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:hardwareAccelerated="false"
+23-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:17:9-44
+24        android:icon="@drawable/logo"
+24-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:12:9-38
+25        android:label="@string/app_name"
+25-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:13:9-41
+26        android:largeHeap="true"
+26-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:18:9-33
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:16:9-40
+31        <activity
+31-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:19:9-30:20
+32            android:name="com.example.mirim_cess_master.SplashActivity"
+32-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:21:13-72
+33            android:screenOrientation="portrait"
+33-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:22:13-49
+34            android:theme="@style/SplashTheme"
+34-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:23:13-47
+35            android:windowSoftInputMode="stateHidden" > <!-- 강제로 세로모드로만 하게 만듬 -->
+35-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:20:13-54
+36            <intent-filter>
+36-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:25:13-29:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:26:17-69
+37-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:26:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:28:17-77
+39-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:28:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:31:9-33:73
+43            android:name="com.example.mirim_cess_master.MainActivity"
+43-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:33:13-70
+44            android:windowSoftInputMode="stateHidden" />
+44-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:32:13-54
+45        <activity android:name="com.example.mirim_cess_master.FirstStory" />
+45-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:34:9-77
+45-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:34:19-74
+46        <activity android:name="com.example.mirim_cess_master.SecondStory" />
+46-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:35:9-78
+46-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:35:19-75
+47        <activity android:name="com.example.mirim_cess_master.FourthStory" />
+47-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:36:9-78
+47-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:36:19-75
+48        <activity
+48-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:37:9-39:73
+49            android:name="com.example.mirim_cess_master.StartActivity"
+49-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:39:13-71
+50            android:windowSoftInputMode="stateHidden" />
+50-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:38:13-54
+51        <activity android:name="com.example.mirim_cess_master.first.Frag_First_Story7_1" />
+51-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:41:9-91
+51-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:41:19-89
+52        <activity android:name="com.example.mirim_cess_master.first.Frag_First_Story7_2" />
+52-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:42:9-91
+52-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:42:19-89
+53        <activity android:name="com.example.mirim_cess_master.second.Frag_Second_Story8_1" />
+53-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:44:9-93
+53-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:44:19-91
+54        <activity android:name="com.example.mirim_cess_master.second.Frag_Second_Story8_2" />
+54-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:45:9-93
+54-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:45:19-91
+55        <activity android:name="com.example.mirim_cess_master.fourth.Frag_Fourth_Story8_1" />
+55-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:47:9-93
+55-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:47:19-91
+56        <activity android:name="com.example.mirim_cess_master.fourth.Frag_Fourth_Story8_2" />
+56-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:48:9-93
+56-->C:\Users\suvin\Desktop\Mirim-cess-master-app\app\src\main\AndroidManifest.xml:48:19-91
+57
+58        <service
+58-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+63                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+63-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-database:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a858482f0d85511048b88d680e761880\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+66-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+68            <meta-data
+68-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\6fe4b55c8a1611151343fc147cb0de95\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+69                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+69-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\6fe4b55c8a1611151343fc147cb0de95\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\6fe4b55c8a1611151343fc147cb0de95\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+72                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+72-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+75                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+75-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+77        </service>
+78
+79        <activity
+79-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+80            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+80-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+84            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+84-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+86
+87        <receiver
+87-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+88-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+91        </receiver>
+92
+93        <service
+93-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+94            android:name="com.google.android.gms.measurement.AppMeasurementService"
+94-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+95            android:enabled="true"
+95-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+96            android:exported="false" />
+96-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+97        <service
+97-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+98            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+98-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+101            android:permission="android.permission.BIND_JOB_SERVICE" />
+101-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\ecc2a30565dd7c57cd203d50d510b45e\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+102
+103        <receiver
+103-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+105            android:exported="true"
+105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+107            <intent-filter>
+107-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+109            </intent-filter>
+110        </receiver>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+119            android:authorities="com.example.mirim_cess_master.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\suvin\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
