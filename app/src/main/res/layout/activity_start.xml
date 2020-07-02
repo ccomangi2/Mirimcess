@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500dp"
+        android:background="@android:color/transparent"
+        android:onClick="firststory"
+        android:src="@drawable/one_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="secondstory"
+        android:src="@drawable/two_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="fourthstory"
+        android:src="@drawable/four_btn"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+
+    <EditText
+        android:id="@+id/goodtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="15dp"
+        android:enabled="false"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton1"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton1" />
+
+    <ImageView
+        android:id="@+id/good1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/check_on"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton1"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton1"
+        app:layout_constraintStart_toStartOf="@+id/imageButton1" />
+
+    <EditText
+        android:id="@+id/goodtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="15dp"
+        android:autoText="false"
+        android:enabled="false"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4" />
+
+    <ImageView
+        android:id="@+id/good2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/check_on"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="@+id/imageButton4" />
+
+    <EditText
+        android:id="@+id/goodtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="15dp"
+        android:enabled="false"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2" />
+
+    <ImageView
+        android:id="@+id/good3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="620dp"
+        android:layout_marginRight="620dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/check_on"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
