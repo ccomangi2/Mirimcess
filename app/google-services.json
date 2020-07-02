@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "404140744794",
+    "firebase_url": "https://mrimcess.firebaseio.com",
+    "project_id": "mrimcess",
+    "storage_bucket": "mrimcess.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404140744794:android:5af6532d2dfb26444e3863",
+        "android_client_info": {
+          "package_name": "com.example.mirim_cess_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404140744794-fl42gs61tmje81d182706ms8et683ja0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdN9JTcTuqgy7qqPG5zLW9FkN48Daj-z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404140744794-fl42gs61tmje81d182706ms8et683ja0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
